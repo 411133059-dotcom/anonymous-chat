@@ -1,0 +1,42 @@
+/* 設計 token：來自 docs/design.md。要改顏色、字型、尺寸，只改這裡。 */
+:root {
+  --bg: #14161c;
+  --bg-outer: #0b0c10;
+  --panel: #1d212b;
+  --bubble-other: #262b38;
+  --line: #2c3140;
+  --line-strong: #3a4054;
+
+  --text: #eceef4;
+  --text-dim: #9aa1b5;
+  --text-off: #6b7288;
+
+  --accent: #d7f25b;
+  --on-accent: #14161c;
+
+  --danger: #ff8e80;
+  --danger-bg: #3a2a27;
+  --warn: #f2c75c;
+  --warn-bg: #3b3015;
+
+  --font-sans: 'Noto Sans TC', system-ui, -apple-system, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --fs-msg: 15px;
+  --fs-nick: 12px;
+  --fs-time: 11px;
+  --fs-sys: 12px;
+  --fs-input: 16px; /* 16px 以上，iPhone 才不會自動放大 */
+
+  --tap: 44px;
+  --r-bubble: 18px;
+  --r-bubble-tail: 4px;
+  --topbar-h: 60px;
+  --col-w: 760px;
+}
+
+@media (min-width: 900px) {
+  :root {
+    --topbar-h: 68px;
+  }
+}
